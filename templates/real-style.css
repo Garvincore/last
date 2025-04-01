@@ -1,0 +1,8 @@
+.watch-event-videos:hover {
+    background-color: lightgreen;
+}
+
+.watchevent-videos {
+    width: 75vw;
+    z-index: 0;
+}
