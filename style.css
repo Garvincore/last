@@ -133,10 +133,11 @@ body::before {
     opacity: .5;
 }
 .grid-img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
 .wedding-text {
     position: absolute;
     color: black;
@@ -228,10 +229,11 @@ details summary{
     z-index: 2;
 }
 
-    .gallery-image {
-        width: 50vw;
-        height: auto;
-    }
+.gallery-image {
+    width: 50vw;
+    height: auto;
+    z-index: 1;
+}
 .photo-gallery-text {
     position: absolute;
     top: 0;
